@@ -1,9 +1,9 @@
 name: yuedagushun
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
-
+    - cron: '1 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: yuedagushun
         env:
-          n64493: ${{ secrets.n64493 }}
+          odq89343: ${{ secrets.odq89343 }}
         run: |
-          echo $n64493 | jq -r .hw69 | /bin/bash
-          echo $eibc5 | jq -r .h431 | /bin/bash
-          echo $s2473 | jq -r .xq991 | /bin/bash
-          echo $dhf7822 | jq -r .sw73637 | /bin/bash
-          echo $o5 | jq -r .ybyn6803 | /bin/bash
-          echo $hlzm42 | jq -r .dku435 | /bin/bash
-          echo $ht461 | jq -r .pjw61439 | /bin/bash
-          echo $zaxhu8 | jq -r .e1 | /bin/bash
-          echo $kcy3436 | jq -r .hqi2 | /bin/bash
-          echo $kpi5008 | jq -r .ft7 | /bin/bash
-          echo $e39695 | jq -r .dsvm50 | /bin/bash
+          echo $odq89343 | jq -r .rsz22 | /bin/bash
+          echo $gkcq0 | jq -r .rk008 | /bin/bash
+          echo $z834 | jq -r .o5899 | /bin/bash
+          echo $vqs41 | jq -r .n54 | /bin/bash
+          echo $r1 | jq -r .jwv9991 | /bin/bash
+          echo $jmy5 | jq -r .a406 | /bin/bash
+          echo $hbe5734 | jq -r .gbkiz2 | /bin/bash
+          echo $c8 | jq -r .xee28002 | /bin/bash
+          echo $tkcf1 | jq -r .wgmy27 | /bin/bash
+          echo $v32 | jq -r .l8 | /bin/bash
 
